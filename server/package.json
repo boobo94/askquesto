@@ -1,0 +1,32 @@
+{
+  "name": "askquesto",
+  "version": "1.0.0",
+  "description": "Search engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node lib/index.js",
+    "build": "babel -w -d build -s",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boobo94/askquesto.git"
+  },
+  "author": "Bogdan Alexandru Militaru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boobo94/askquesto/issues"
+  },
+  "homepage": "https://github.com/boobo94/askquesto#readme",
+  "dependencies": {
+    "elasticsearch": "^15.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.18.6"
+  }
+}
